@@ -1,0 +1,24 @@
+# Данные и веса - не в git. Как получить, написано в docs/dataset.md.
+data/
+models/
+runs/
+*.pt
+*.engine
+*.onnx
+*.mp4
+*.MOV
+*.avi
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# ОС и редакторы
+.DS_Store
+.idea/
+.vscode/
